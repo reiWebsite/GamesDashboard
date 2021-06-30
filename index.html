@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Games Dashboard</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/main.min.js"></script>
+</head>
+
+<body>
+
+	<section class="flex flex-screen">
+
+		<header class="header">
+			<menu class="header__menu">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a href="#">
+							<img src="images/logo.png" alt="logo">
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-1.svg" alt="home">
+							<p class="header__list-text">
+								Home
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item ">
+						<a class="header__list-link header__list-item--active" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-2.svg" alt="store">
+							<p class="header__list-text">
+								Store
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-3.svg" alt="library">
+							<p class="header__list-text">
+								Library
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-4.svg" alt="friends">
+							<p class="header__list-text">
+								Friends
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-5.svg" alt="live">
+							<p class="header__list-text">
+								Live
+							</p>
+						</a>
+					</li>
+
+				</ul>
+				<div class="header__list-item item-bottom">
+					<a class="header__list-link" href="#">
+						<img class="header__list-link-img" src="images/iconMenu-6.svg" alt="downloads">
+						<p class="header__list-text">
+							Downloads
+						</p>
+					</a>
+					<a class="header__list-link =" href="#">
+						<img class="header__list-link-img" src="images/iconMenu-7.svg" alt="settings">
+						<p class="header__list-text">
+							Settings
+						</p>
+					</a>
+					<a class="header__list-link" href="#">
+						<div class="user">
+							<img class="userStatus" src="images/userStatus.png" alt="userStatus">
+							<img src="images/content/userTrainee.png" alt="user">
+						</div>
+
+						<p class="header__list-text">
+							Trainee
+						</p>
+					</a>
+				</div>
+			</menu>
+
+		</header>
+
+		<div class="header-mobile">
+
+			<button class="header-mobile__btn">
+				<span></span>
+			</button>
+			<a href="#" class="header-mobile__link">
+				<img src="images/logo.png" alt="logo">
+			</a>
+
+
+			<menu class="header__menu menu-mobile">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-1.svg" alt="home">
+							<p class="header__list-text">
+								Home
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item ">
+						<a class="header__list-link header__list-item--active" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-2.svg" alt="store">
+							<p class="header__list-text">
+								Store
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-3.svg" alt="library">
+							<p class="header__list-text">
+								Library
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-4.svg" alt="friends">
+							<p class="header__list-text">
+								Friends
+							</p>
+						</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__list-link" href="#">
+							<img class="header__list-link-img" src="images/iconMenu-5.svg" alt="live">
+							<p class="header__list-text">
+								Live
+							</p>
+						</a>
+					</li>
+
+				</ul>
+				<div class="header__list-item item-bottom">
+					<a class="header__list-link" href="#">
+						<img class="header__list-link-img" src="images/iconMenu-6.svg" alt="downloads">
+						<p class="header__list-text">
+							Downloads
+						</p>
+					</a>
+					<a class="header__list-link =" href="#">
+						<img class="header__list-link-img" src="images/iconMenu-7.svg" alt="settings">
+						<p class="header__list-text">
+							Settings
+						</p>
+					</a>
+					<a class="header__list-link" href="#">
+						<div class="user">
+							<img class="userStatus" src="images/userStatus.png" alt="userStatus">
+							<img src="images/content/userTrainee.png" alt="user">
+						</div>
+
+						<p class="header__list-text">
+							Trainee
+						</p>
+					</a>
+				</div>
+			</menu>
+
+
+
+		</div>
+
+
+		<section class="main">
+			<div class="tools">
+				<div class="tools__pages">
+					<a class="tools__page tools__page-1 tools__page--active" href="#">
+						Discover
+					</a>
+					<a class="tools__page tools__page-2" href="#">
+						Browse
+					</a>
+					<a class="tools__page tools__page-3" href="#">
+						Wishlist
+					</a>
+				</div>
+				<div class="tools__pages">
+					<button class="tools__notif">
+						<img src="images/headerNotif.svg" alt="notif" class="notif__img">
+					</button>
+					<form class="tools__form">
+						<button class="tools__submit" type="submit">
+							<img src="images/search.svg" alt="search">
+						</button>
+						<input type="search" class="tools__searchbar" placeholder="Search">
+					</form>
+				</div>
+			</div>
+
+			<section class="main__banner">
+				<div class="main__banner-big">
+					<img src="images/content/Main banner.png" alt="banner-1" class="main__banner-big-img1">
+					<h3 class="main__banner-big-title title-top">Fortnite</h3>
+					<p class="main__banner-big-text">Update</p>
+					<h3 class="main__banner-big-title title-desc">
+						The hunt is on in Fortnite Chapter 2 -
+						Season 5: Zero Point.
+					</h3>
+					<a href="#" class="main__banner-big-link">
+						Play for free
+						<img src="images/arrowR.svg" alt="arrow" class="main__banner-big-img">
+					</a>
+				</div>
+				<div class="main__banner-small">
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-1.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							Fortnite
+						</p>
+					</a>
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-2.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							Rocket League®
+						</p>
+					</a>
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-3.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							The Escapists 2
+						</p>
+					</a>
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-4.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							The Long Dark
+						</p>
+					</a>
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-5.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							Yakuza:
+							Like a Dragon
+						</p>
+					</a>
+					<a class="main__banner-small-item" href="#">
+						<img src="images/content/subImage-6.png" alt="gameimg" class="main__banner-small-img">
+						<p class="main__banner-small-text">
+							Warhammer:
+							Vermintide 2
+						</p>
+					</a>
+				</div>
+			</section>
+
+
+			<section class="sales">
+				<h5 class="sales__title">
+					Games On Sale
+				</h5>
+				<div class="sales__slider">
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-1.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Valheim
+						</h3>
+						<p class="sales__slider-item-text">
+							Action Games
+						</p>
+						<p class="sales__slider-item-price">
+							$8.15
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-2.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							BIOSHOCK: THE COLLEC...
+						</h3>
+						<p class="sales__slider-item-text">
+							Action, RPG
+						</p>
+						<p class="sales__slider-item-discount">
+							-80%
+						</p>
+						<p class="sales__slider-item-oldprice">
+							$50
+						</p>
+						<p class="sales__slider-item-price">
+							$8.67
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-3.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Unravel Two
+						</h3>
+						<p class="sales__slider-item-text">
+							Adventure Games
+						</p>
+						<p class="sales__slider-item-price">
+							$20.38
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-4.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Tick Tock: A Tale for Two
+						</h3>
+						<p class="sales__slider-item-text">
+							Indie Games
+						</p>
+						<p class="sales__slider-item-discount">
+							-60%
+						</p>
+						<p class="sales__slider-item-oldprice">
+							$3.47
+						</p>
+						<p class="sales__slider-item-price">
+							$1.39
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-5.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							HITMAN 3
+						</h3>
+						<p class="sales__slider-item-text">
+							Action Games
+						</p>
+						<p class="sales__slider-item-price">
+							$23.99
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-6.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Resident Evil Village
+						</h3>
+						<p class="sales__slider-item-text">
+							CAPCOM Co., Ltd.
+						</p>
+						<p class="sales__slider-item-price">
+							$59.99
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-1.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Valheim
+						</h3>
+						<p class="sales__slider-item-text">
+							Action Games
+						</p>
+						<p class="sales__slider-item-price">
+							$8.15
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-2.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							BIOSHOCK: THE COLLEC...
+						</h3>
+						<p class="sales__slider-item-text">
+							Action, RPG
+						</p>
+						<p class="sales__slider-item-discount">
+							-80%
+						</p>
+						<p class="sales__slider-item-oldprice">
+							$50
+						</p>
+						<p class="sales__slider-item-price">
+							$8.67
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-3.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Unravel Two
+						</h3>
+						<p class="sales__slider-item-text">
+							Adventure Games
+						</p>
+						<p class="sales__slider-item-price">
+							$20.38
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-4.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Tick Tock: A Tale for Two
+						</h3>
+						<p class="sales__slider-item-text">
+							Indie Games
+						</p>
+						<p class="sales__slider-item-discount">
+							-60%
+						</p>
+						<p class="sales__slider-item-oldprice">
+							$3.47
+						</p>
+						<p class="sales__slider-item-price">
+							$1.39
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-5.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							HITMAN 3
+						</h3>
+						<p class="sales__slider-item-text">
+							Action Games
+						</p>
+						<p class="sales__slider-item-price">
+							$23.99
+						</p>
+					</a>
+					<a class="sales__slider-item" href="#">
+						<img src="images/content/banner1-6.png" alt="gameimgbanner" class="sales__slider-item-img">
+						<h3 class="sales__slider-item-title">
+							Resident Evil Village
+						</h3>
+						<p class="sales__slider-item-text">
+							CAPCOM Co., Ltd.
+						</p>
+						<p class="sales__slider-item-price">
+							$59.99
+						</p>
+					</a>
+				</div>
+
+			</section>
+
+
+
+
+		</section>
+
+
+
+
+	</section>
+
+</body>
+
+</html>
